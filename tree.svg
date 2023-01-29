@@ -1,0 +1,25 @@
+<svg version="1.1"
+     width="200" height="300"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <!-- COLORS https://www.w3schools.com/colors/colors_names.asp -->
+
+    <rect x="0" y="0" width="50" height="50" fill="Olive" />
+    <rect x="0" y="50" width="50" height="50" fill="OliveDrab" />
+    <rect x="0" y="100" width="50" height="50" fill="Olive" />
+
+    <rect x="50" y="0" width="50" height="50" fill="Olive" />
+    <rect x="50" y="50" width="50" height="50" fill="Olive" />
+    <rect x="50" y="100" width="50" height="50" fill="OliveDrab" />
+
+    <rect x="100" y="0" width="50" height="50" fill="OliveDrab" />
+    <rect x="100" y="50" width="50" height="50" fill="Olive" />
+    <rect x="100" y="100" width="50" height="50" fill="Olive" />
+
+
+    <rect x="50" y="150" width="50" height="50" fill="Sienna" />
+    <rect x="50" y="200" width="50" height="50" fill="Sienna" />
+    <rect x="50" y="250" width="50" height="50" fill="Sienna" />
+
+
+</svg>
