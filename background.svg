@@ -1,0 +1,23 @@
+<svg version="1.1"
+     width="2000" height="1000"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Hlavni pozadi cele obrazovky -->
+    <rect x="0" y="0" width="2000" height="1000" fill="#30a6ca" />
+
+    <rect x="1000" y="300" width="100" height="100" fill="#09518b" />
+    <rect x="1000" y="100" width="100" height="100" fill="#0a457f" />
+
+
+    <rect x="1000" y="600" width="100" height="100" fill="#09518b" />
+
+    <rect x="1000" y="800" width="100" height="100" fill="#127baa" />
+    <rect x="100" y="400" width="100" height="100" fill="#106ea4" />
+    <rect x="300" y="400" width="100" height="100" fill="#0d5e95" />
+
+
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="transparent" />
+
+
+    <rect x="300" y="400" width="100" height="100" fill="#0d5e95" />
+</svg>

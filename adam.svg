@@ -1,0 +1,21 @@
+<svg version="1.1"
+     width="2000" height="1000"
+     xmlns="http://www.w3.org/2000/svg">
+
+
+    <rect width="200" height="200" x="25" y="25" fill="#ea9957">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect width="200" height="200" x="800" y="25" fill="#ea9957">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+
+    <rect width="200" height="200" x="1000" y="25" fill="#cd5d49">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <rect width="200" height="200" x="600" y="25" fill="#f9daa1">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+</svg>

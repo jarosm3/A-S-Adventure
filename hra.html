@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HRA</title>
+</head>
+
+<script>
+    function klavesaZmacknuta(event) {
+
+        // Najdi Freddyho a zjisti jeho X, Y
+        var freddy = document.getElementById("freddy");
+        var x = parseInt(freddy.getAttribute("x"));
+        var y = parseInt(freddy.getAttribute("y"));
+
+        // Sipka nahoru
+        if (event.keyCode === 38) {
+            y = y - 5
+        }
+
+        // Sipka dolu
+        else if (event.keyCode === 40) {
+            y = y + 5
+        }
+
+        // Sipka doleva
+        else if (event.keyCode === 37) {
+            x = x - 5
+        }
+
+        // Sipka doprava
+        else if (event.keyCode === 39) {
+            x = x + 5
+        }
+
+        // Posun Freddyho
+        freddy.setAttribute("x", x);
+        freddy.setAttribute("y", y);
+    }
+</script>
+
+<body onkeydown="klavesaZmacknuta(event)">
+
+<!-- Nas hlavni obrazek -->
+<svg width="1800" height="800">
+
+    <!-- Domek -->
+    <rect x="1000" y="500" width="200" height="150" fill="grey"></rect>
+
+    <!-- Dvere -->
+    <rect x="1050" y="610" width="12" height="30" fill="black"></rect>
+
+    <!-- Okno -->
+    <rect x="1054" y="600" width="12" height="12" fill="black"></rect>
+
+    <!-- Fnaf Freddy -->
+    <image href="fnaf-freddy.svg" x="900" y="550" height="100" id="freddy" />
+</svg>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
